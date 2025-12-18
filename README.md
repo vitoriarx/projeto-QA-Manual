@@ -1,7 +1,7 @@
 # QA Manual – Swag Labs (SauceDemo)
 
 ## Objetivo
-Projeto de QA Manual criado para praticar testes funcionais em uma aplicação web de e-commerce (Swag Labs), amplamente utilizada para fins educacionais.
+Projeto de QA Manual criado para praticar testes funcionais em uma aplicação web de e-commerce (Swag Labs), amplamente utilizada para fins de aprendizado.
 
 ## Aplicação testada
 https://www.saucedemo.com/
