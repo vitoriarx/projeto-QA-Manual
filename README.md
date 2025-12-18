@@ -1,28 +1,26 @@
-# QA Manual – Projeto BugBank
+# QA Manual – Swag Labs (SauceDemo)
 
-## 🎯 Objetivo
-Testar a aplicação BugBank (web) com foco em QA Manual, usando práticas profissionais de testes, casos de teste, BDD, critérios de aceite, teste exploratório e bug reporting.
+## Objetivo
+Projeto de QA Manual criado para praticar testes funcionais em uma aplicação web de e-commerce (Swag Labs), amplamente utilizada para fins educacionais e testes técnicos.
 
-## 🔗 Aplicação alvo
-https://bugbank.netlify.app/
+## Aplicação testada
+https://www.saucedemo.com/
 
-## 🛠️ Ferramentas e Linguagens
+## Escopo
+- Login
+- Listagem de produtos
+- Carrinho
+- Checkout
+
+## Técnicas aplicadas
+- Casos de Teste
+- BDD (Gherkin)
+- Critérios de Aceite
+- Teste Exploratório
+- Bug Report
+
+## Ferramentas
 - VS Code
 - GitHub
 - Markdown
 - Gherkin
-
-## 📌 Escopo testado
-✔ Cadastro  
-✔ Login  
-✔ Transferência  
-✔ Pagamentos  
-✔ Extratos
-
-## 📁 Estrutura de pastas
-- casos_de_teste
-- gherkin_bdd
-- 3_criterios_de_aceite
-- teste_exploratorio
-- bug_report
-- evidencias
