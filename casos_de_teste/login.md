@@ -13,8 +13,11 @@
 - Usuário autenticado
 - Página de produtos exibida
 
+
 **Status:** Aprovado
+
 **Evidencia:** evidencias\login\CT-LOGIN.mp4
+
 
 --- 
 
@@ -34,6 +37,7 @@
 - O usuário deve permanecer na tela de login
 
 **Status:** Aprovado 
+
 **Evidencia:** evidencias\login\CT-LOGIN_SENHA_INVALIDA.mp4 
 
 
@@ -60,8 +64,11 @@
 - Mensagem exibida: "Epic sadface: Username is required"
 - Usuário permanece na tela de login
 
+
 **Status:** Passed
+
 **Evidências:** evidencias\login\CT-LOGIN_CAMPOS_VAZIOS.mp4 
+
 **Observações / Sugestão de melhoria:**
 - A mensagem informa apenas a ausência do username.
 - Sugestão: informar claramente todos os campos obrigatórios ou indicar ambos (username e password).
