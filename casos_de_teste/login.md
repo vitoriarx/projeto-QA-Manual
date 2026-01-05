@@ -13,17 +13,19 @@
 - Usuário autenticado
 - Página de produtos exibida
 
+**Resultado obtido:**
+- Usuário autenticado com sucesso
+- Página de produtos exibida corretamente
 
 **Status:** Aprovado
 
-**Evidencia:** evidencias\login\CT-LOGIN.mp4
+**Evidência:** evidencias/login/CT-LOGIN.mp4
 
+---
 
---- 
+## CT-02 – Login com senha inválida
 
-## CT-02 - Login com senha inválidas
-
-**Pré-condições**
+**Pré-condições:**
 - Usuário na tela de login
 
 **Passos:**
@@ -33,23 +35,28 @@
 4. Clicar em *Login*
 
 **Resultado esperado:**
-- Uma mensagem de erro deve ser exibida na tela "Epic sadface: Username and password do not match any user in this service" 
+- Uma mensagem de erro deve ser exibida
 - O usuário deve permanecer na tela de login
 
-**Status:** Aprovado 
+**Resultado obtido:**
+- Mensagem de erro exibida:  
+  "Epic sadface: Username and password do not match any user in this service"
+- Usuário permanece na tela de login
 
-**Evidencia:** evidencias\login\CT-LOGIN_SENHA_INVALIDA.mp4 
+**Status:** Aprovado
 
+**Evidência:** evidencias/login/CT-LOGIN_SENHA_INVALIDA.mp4
 
 **Observações / Sugestão de melhoria:**
 - A mensagem de erro não é clara para usuários leigos.
-- Sugestão: exibir mensagem mais objetiva, como:
+- Sugestão: exibir mensagem mais objetiva, como:  
   > "Usuário ou senha inválidos. Verifique os dados e tente novamente."
---- 
 
-## CT-03 - Login com campos vazios
+---
 
-**Pré-condições**
+## CT-03 – Login com campos vazios
+
+**Pré-condições:**
 - Acesso à página de login
 
 **Passos:**
@@ -61,13 +68,13 @@
 - Uma mensagem de erro deve ser exibida
 
 **Resultado obtido:**
-- Mensagem exibida: "Epic sadface: Username is required"
+- Mensagem exibida:  
+  "Epic sadface: Username is required"
 - Usuário permanece na tela de login
 
+**Status:** Aprovado
 
-**Status:** Passed
-
-**Evidências:** evidencias\login\CT-LOGIN_CAMPOS_VAZIOS.mp4 
+**Evidência:** evidencias/login/CT-LOGIN_CAMPOS_VAZIOS.mp4
 
 **Observações / Sugestão de melhoria:**
 - A mensagem informa apenas a ausência do username.
